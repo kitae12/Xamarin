@@ -1,0 +1,15 @@
+/Users/kitae/workspace/Xamarin/bin/Debug/net6.0/Xamarin
+/Users/kitae/workspace/Xamarin/bin/Debug/net6.0/Xamarin.deps.json
+/Users/kitae/workspace/Xamarin/bin/Debug/net6.0/Xamarin.runtimeconfig.json
+/Users/kitae/workspace/Xamarin/bin/Debug/net6.0/Xamarin.dll
+/Users/kitae/workspace/Xamarin/bin/Debug/net6.0/Xamarin.pdb
+/Users/kitae/workspace/Xamarin/obj/Debug/net6.0/Xamarin.csproj.AssemblyReference.cache
+/Users/kitae/workspace/Xamarin/obj/Debug/net6.0/Xamarin.GeneratedMSBuildEditorConfig.editorconfig
+/Users/kitae/workspace/Xamarin/obj/Debug/net6.0/Xamarin.AssemblyInfoInputs.cache
+/Users/kitae/workspace/Xamarin/obj/Debug/net6.0/Xamarin.AssemblyInfo.cs
+/Users/kitae/workspace/Xamarin/obj/Debug/net6.0/Xamarin.csproj.CoreCompileInputs.cache
+/Users/kitae/workspace/Xamarin/obj/Debug/net6.0/Xamarin.dll
+/Users/kitae/workspace/Xamarin/obj/Debug/net6.0/refint/Xamarin.dll
+/Users/kitae/workspace/Xamarin/obj/Debug/net6.0/Xamarin.pdb
+/Users/kitae/workspace/Xamarin/obj/Debug/net6.0/Xamarin.genruntimeconfig.cache
+/Users/kitae/workspace/Xamarin/obj/Debug/net6.0/ref/Xamarin.dll
