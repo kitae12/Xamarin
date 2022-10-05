@@ -1,8 +1,33 @@
 ﻿using System;
 
+namespace Lecture_1
+{
+
+   class Program
+   {
+        static void Main(string[] args)
+        {
+            First();
+
+            void First()
+            {
+                Console.WriteLine("hi");
+                Console.WriteLine("hihi");
+                Console.ReadLine();
+            }
+        }
+   }
+}
+
+/*
 class ArrayExample
 {
-    static void Main()
+    private static Console GetConsole()
+    {
+        return Console;
+    }
+
+    static void Main(Console console)
     {
         char[] letters = { 'f', 'r', 'e', 'd', ' ', 's', 'm', 'i', 't', 'h'};
         string name = "";
@@ -13,7 +38,8 @@ class ArrayExample
             a[i] = i + 1;
             SendMessage(name, a[i]);
         }
-        Console.ReadKey();
+
+        console.ReadKey();
     }
 
     static void SendMessage(string name, int msg)
@@ -21,3 +47,4 @@ class ArrayExample
         Console.WriteLine("Hello, " + name + "! Count to " + msg);
     }
 }
+*/
