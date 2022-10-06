@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/kitae/workspace/Xamarin/Lecture_1/Lecture_1/Lecture_1.csproj",
+      "projectUniqueName": "/Users/kitae/workspace/Xamarin/Xamarin/Lecture_1/Lecture_1/Lecture_1.csproj",
       "projectName": "Lecture_1",
-      "projectPath": "/Users/kitae/workspace/Xamarin/Lecture_1/Lecture_1/Lecture_1.csproj",
+      "projectPath": "/Users/kitae/workspace/Xamarin/Xamarin/Lecture_1/Lecture_1/Lecture_1.csproj",
       "packagesPath": "/Users/kitae/.nuget/packages/",
-      "outputPath": "/Users/kitae/workspace/Xamarin/Lecture_1/Lecture_1/obj/",
+      "outputPath": "/Users/kitae/workspace/Xamarin/Xamarin/Lecture_1/Lecture_1/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/kitae/.nuget/NuGet/NuGet.Config"
