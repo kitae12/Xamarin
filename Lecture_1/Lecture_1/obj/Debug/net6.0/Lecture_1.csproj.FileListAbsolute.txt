@@ -1,0 +1,15 @@
+/Users/kitae/workspace/Xamarin/Lecture_1/Lecture_1/bin/Debug/net6.0/Lecture_1
+/Users/kitae/workspace/Xamarin/Lecture_1/Lecture_1/bin/Debug/net6.0/Lecture_1.deps.json
+/Users/kitae/workspace/Xamarin/Lecture_1/Lecture_1/bin/Debug/net6.0/Lecture_1.runtimeconfig.json
+/Users/kitae/workspace/Xamarin/Lecture_1/Lecture_1/bin/Debug/net6.0/Lecture_1.dll
+/Users/kitae/workspace/Xamarin/Lecture_1/Lecture_1/bin/Debug/net6.0/Lecture_1.pdb
+/Users/kitae/workspace/Xamarin/Lecture_1/Lecture_1/obj/Debug/net6.0/Lecture_1.csproj.AssemblyReference.cache
+/Users/kitae/workspace/Xamarin/Lecture_1/Lecture_1/obj/Debug/net6.0/Lecture_1.GeneratedMSBuildEditorConfig.editorconfig
+/Users/kitae/workspace/Xamarin/Lecture_1/Lecture_1/obj/Debug/net6.0/Lecture_1.AssemblyInfoInputs.cache
+/Users/kitae/workspace/Xamarin/Lecture_1/Lecture_1/obj/Debug/net6.0/Lecture_1.AssemblyInfo.cs
+/Users/kitae/workspace/Xamarin/Lecture_1/Lecture_1/obj/Debug/net6.0/Lecture_1.csproj.CoreCompileInputs.cache
+/Users/kitae/workspace/Xamarin/Lecture_1/Lecture_1/obj/Debug/net6.0/Lecture_1.dll
+/Users/kitae/workspace/Xamarin/Lecture_1/Lecture_1/obj/Debug/net6.0/refint/Lecture_1.dll
+/Users/kitae/workspace/Xamarin/Lecture_1/Lecture_1/obj/Debug/net6.0/Lecture_1.pdb
+/Users/kitae/workspace/Xamarin/Lecture_1/Lecture_1/obj/Debug/net6.0/Lecture_1.genruntimeconfig.cache
+/Users/kitae/workspace/Xamarin/Lecture_1/Lecture_1/obj/Debug/net6.0/ref/Lecture_1.dll
