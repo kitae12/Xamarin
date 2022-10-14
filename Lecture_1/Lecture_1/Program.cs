@@ -10,6 +10,12 @@ namespace study
             //Forth();
             //Fifth();
             //Sixth();
+            seventh();
+
+            void seventh()
+            {
+
+            }
 
             void Sixth()
             {
@@ -26,7 +32,6 @@ namespace study
 
                 Console.WriteLine("나머지 값 {0}", 5 % 2); //1
             }
-
 
             void Fifth()
             {
