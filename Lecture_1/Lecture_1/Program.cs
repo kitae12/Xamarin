@@ -14,7 +14,41 @@ namespace study
 
             void seventh()
             {
+                /*
+                관계 연산자 : <, >, ==, !=, <=, >=
+                논리 연산자 : &&, ||, !                 
+                 */
 
+                int a = 3;
+                if (a == 1)
+                {
+                    Console.WriteLine("1과 같음");
+                }
+                else if(a >= 1)
+                {
+                    Console.WriteLine("1보다 크거나 같음");
+                }
+                else if(a < 1)
+                {
+                    Console.WriteLine("1보다 작음");
+                }
+                else
+                {
+                    Console.WriteLine("해당없음");
+                }
+
+                int b, c;
+                b = 100;
+                c = 200;
+
+                if(b == 100 && c == 300)
+                {
+                    Console.WriteLine("1");
+                }
+                else if(b == 100 || c == 300)
+                {
+                    Console.WriteLine("2");
+                }
             }
 
             void Sixth()
