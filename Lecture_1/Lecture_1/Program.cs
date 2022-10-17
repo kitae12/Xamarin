@@ -10,7 +10,49 @@ namespace study
             //Forth();
             //Fifth();
             //Sixth();
-            seventh();
+            //seventh();
+            //eighth();
+            ninth();
+
+            void ninth()
+            {
+                double pie = 3.141592;
+
+                Console.WriteLine("정수만 출력: {0:F0}", pie);
+                Console.WriteLine("소수점 한자리 출력: {0:F1}", pie);
+                Console.WriteLine("소수점 두자리 출력: {0:F2}", pie);
+                Console.WriteLine("소수점 세자리 출력: {0:F3}", pie);
+
+                string str1 = "안녕하세여";
+                string str2 = "C:\\Study";
+                string str3 = @"C:\Stydy";
+
+                Console.WriteLine(str1);
+                Console.WriteLine("\"" + str1 + "\"");
+                Console.WriteLine("경로는 " + str2 + "입니다");
+                Console.WriteLine("경로는 " + str3 + "입니다");
+            }
+
+            void eighth()
+            {
+                char a1 = 'a';
+                char a2 = 'A';
+
+                Console.WriteLine("a1의 값: " + a1);
+                Console.WriteLine("a2의 값: " + a2);
+
+                ushort change_a1, change_a2;
+                change_a1 = a1;
+                change_a2 = a2;
+                Console.WriteLine("change_a1의 값: " + change_a1);
+                Console.WriteLine("change_a2의 값: " + change_a2);
+
+                byte ch_byte_a1, ch_byte_a2;
+                ch_byte_a1 = (byte)a1;
+                ch_byte_a2 = Convert.ToByte(a2);
+                Console.WriteLine("ch_byte_a1의 값: " + ch_byte_a1);
+                Console.WriteLine("ch_byte_a2의 값: " + ch_byte_a2);
+            }
 
             void seventh()
             {
