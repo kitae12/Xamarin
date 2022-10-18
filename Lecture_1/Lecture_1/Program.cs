@@ -7,12 +7,13 @@ namespace study
     {
         static void Main(string[] args)
         {
+            #region 1-9강
             //Forth();
             //Fifth();
             //Sixth();
             //seventh();
             //eighth();
-            ninth();
+            //ninth();
 
             void ninth()
             {
@@ -183,6 +184,58 @@ namespace study
                 Console.ReadLine();
                 const string str = "박기태";
             }
+            #endregion
+
+            #region 10강
+
+            //string ten_name = tenth_str();
+            //Console.WriteLine(ten_name);
+
+            ////int ten_age = tenth_int();
+            ////Console.WriteLine(ten_age);
+
+            ////tenth_param("철수", 10);
+            //string ten_param = tenth_param2("영희", 20);
+            //Console.WriteLine(ten_param);
+
+            //tenth_array("영희", "철수", "민수", "호철", "기양", "영철");
+
+
+
+
+            string tenth_str()
+            {
+                return "park";
+            }
+
+            int tenth_int()
+            {
+                Console.WriteLine("나이를 입력하세요.");
+                int age = Convert.ToInt32(Console.ReadLine());
+                return age;
+            }
+
+            void tenth_param(string name, int age)
+            {
+                Console.WriteLine("이름은 " + name);
+                Console.WriteLine("나이는 " + age);
+            }
+
+            string tenth_param2(string name, int age)
+            {
+                return "입력한 이름은 " + name + " 나이는 " + age + "입니다";
+            }
+
+            void tenth_array(params string[] names)
+            {
+                for(int i = 0; i < names.Length; i++)
+                {
+                    Console.WriteLine(names[i]);
+                } 
+            }
+            #endregion
+
+
         }
     }
 }
