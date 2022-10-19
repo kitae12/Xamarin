@@ -5,6 +5,25 @@ namespace study
 {
     class Program
     {
+
+        static string name = "bbb";
+        
+        enum Enemy { Attack,Dead,Sleep,Run};
+
+        struct person
+        {
+            public string name;
+            public int age;
+            public int empld;
+
+            public person(string name, int age, int empld)
+            {
+                this.name = name;
+                this.age = age;
+                this.empld = empld;
+            }
+        }
+
         static void Main(string[] args)
         {
             #region 1-9강
@@ -186,7 +205,7 @@ namespace study
             }
             #endregion
 
-            #region 10강
+            #region 10강 : 메소드, For문
 
             //string ten_name = tenth_str();
             //Console.WriteLine(ten_name);
@@ -235,7 +254,39 @@ namespace study
             }
             #endregion
 
+            #region 11강 : 전역변수 지역변수 열거형 Enum
+            //eleventh("CCC");
 
+            void eleventh(string name)
+            {
+                //string name = "AAA";
+                Console.WriteLine(name);
+
+                Enemy _status;
+                _status = Enemy.Sleep;
+                Console.WriteLine(_status);
+
+                _status = (Enemy)Enum.Parse(typeof(Enemy), "Run");
+                Console.WriteLine("변경된 상태는 : " + _status);
+
+                _status = Enemy.Attack;
+                Console.WriteLine("두번째 상태는 : " + _status);
+            }
+
+
+            #endregion
+
+            #region 12강 : 구조체 struct
+            //twelfth();
+
+            void twelfth()
+            {
+                person _person = new person("철수", 25, 20210401);
+                Console.WriteLine("이름 : {0} 나이 : {1}    사번 : {2}", _person.name,_person.age,_person.empld);
+            }
+
+
+            #endregion
         }
     }
 }
