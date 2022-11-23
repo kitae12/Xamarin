@@ -6,8 +6,8 @@ namespace study
     {
 
         static string name = "bbb";
-        
-        enum Enemy { Attack,Dead,Sleep,Run};
+
+        enum Enemy { Attack, Dead, Sleep, Run };
 
         struct person
         {
@@ -85,11 +85,11 @@ namespace study
                 {
                     Console.WriteLine("1과 같음");
                 }
-                else if(a >= 1)
+                else if (a >= 1)
                 {
                     Console.WriteLine("1보다 크거나 같음");
                 }
-                else if(a < 1)
+                else if (a < 1)
                 {
                     Console.WriteLine("1보다 작음");
                 }
@@ -102,11 +102,11 @@ namespace study
                 b = 100;
                 c = 200;
 
-                if(b == 100 && c == 300)
+                if (b == 100 && c == 300)
                 {
                     Console.WriteLine("1");
                 }
-                else if(b == 100 || c == 300)
+                else if (b == 100 || c == 300)
                 {
                     Console.WriteLine("2");
                 }
@@ -246,10 +246,10 @@ namespace study
 
             void tenth_array(params string[] names)
             {
-                for(int i = 0; i < names.Length; i++)
+                for (int i = 0; i < names.Length; i++)
                 {
                     Console.WriteLine(names[i]);
-                } 
+                }
             }
             #endregion
 
@@ -281,9 +281,88 @@ namespace study
             void twelfth()
             {
                 person _person = new person("철수", 25, 20210401);
-                Console.WriteLine("이름 : {0} 나이 : {1}    사번 : {2}", _person.name,_person.age,_person.empld);
+                Console.WriteLine("이름 : {0} 나이 : {1}    사번 : {2}", _person.name, _person.age, _person.empld);
             }
 
+
+            #endregion
+
+            #region 13강 : 스위치문
+
+            //thirteenth();
+
+            void thirteenth()
+            {
+                //int number;
+                //number = Convert.ToInt32(Console.ReadLine());
+
+                //switch (number)
+                //{
+                //    case 1: Console.WriteLine("1번이 입력되었습니다."); break;
+                //    case 2: Console.WriteLine("2번이 입력되었습니다."); break;
+                //    case 3: Console.WriteLine("3번이 입력되었습니다."); break;
+                //    default: Console.WriteLine("알수없습니다."); break;
+
+                //}
+
+
+                Enemy enemy = new Enemy();
+                enemy = Enemy.Run;
+                switch (enemy)
+                {
+                    case Enemy.Run: Console.WriteLine("적이 도망갔습니다."); break;
+                    case Enemy.Attack: Console.WriteLine("적이 공격했습니다."); break;
+                    case Enemy.Dead: Console.WriteLine("적이 죽었습니다."); break;
+                    default: Console.WriteLine("입력 오류"); break;
+                }
+
+                
+            }
+            #endregion
+
+            #region 14강 : While, do While문
+
+            //fourteenth();
+
+            void fourteenth()
+            {
+                int i = 0;
+
+                //while (true)
+                //{
+                //    Console.WriteLine(i++);
+                //}
+
+                while (i < 10)
+                {
+                    Console.WriteLine(i++);
+                    i++;
+                }
+
+                Console.WriteLine("반복문종료: " + i);
+
+                do
+                {
+                    Console.WriteLine("do: " + i);
+                    i += 1;
+                }
+                while (i > 10 && i < 20);
+            }
+
+            #endregion
+
+            #region 15강 : foreach문
+
+            //fifteenth();
+
+            void fifteenth()
+            {
+                string[] str = { "사과", "배", "오렌지", "포도", "딸기" };
+                foreach(string a in str)
+                {
+                    Console.WriteLine("과일의 종류는 : " + a);
+                }
+            }
 
             #endregion
         }
