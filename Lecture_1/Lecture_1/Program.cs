@@ -365,8 +365,28 @@ namespace study
             }
 
             #endregion
+
+            #region 16강 : class
+            
+            sixteenth();
+
+            void sixteenth()
+            {
+                Ch_16 staff1 = new Ch_16();
+                staff1.name = "봄버맨";
+                Console.WriteLine(staff1.name);
+
+                Ch_16 staff2 = new Ch_16();
+                staff2.name = "배트맨";
+                staff2.age = 10;
+                Console.WriteLine("이름은:" + staff2.name + " 나이는:" + staff2.age);
+
+            }
+
+            #endregion
         }
     }
+
 }
 
 
